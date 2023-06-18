@@ -3,8 +3,7 @@ const btnPosition = document.querySelector('.j-btn-position');
 const input = document.querySelector('.input');
 const chat = document.querySelector('.chat');
 
-// const wsUri = "wss://echo-ws-service.herokuapp.com/";
-const wsUri = "wss://ws.postman-echo.com/raw";
+const wsUri = "ws://echo-ws-service.herokuapp.com";
 
 const success = (position) => {
     const latitude  = position.coords.latitude;
